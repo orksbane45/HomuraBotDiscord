@@ -16,6 +16,7 @@ exports.run = (client, message, args) => {
    
             message.channel.sendMessage(`${user.username} est maintenant mute !`)
     }
+  }
 };
 
 exports.conf = {
