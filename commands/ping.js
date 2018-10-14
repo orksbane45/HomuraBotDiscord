@@ -4,10 +4,10 @@ exports.run = (client, message) => {
 
 
         if (msg.createdTimestamp - message.createdTimestamp < 200)
-      msg.edit('<:TBgoodping:500711838799888384> : ' + (msg.createdTimestamp - message.createdTimestamp) + 'ms)');
+      msg.edit('<:TBgoodping:500711838799888384> : ' + (msg.createdTimestamp - message.createdTimestamp) + 'ms');
 
   if (msg.createdTimestamp - message.createdTimestamp >= 200)
-      msg.edit('<:TBbadping:500711761012326421> : ' + (msg.createdTimestamp - message.createdTimestamp) + 'ms)');
+      msg.edit('<:TBbadping:500711761012326421> : ' + (msg.createdTimestamp - message.createdTimestamp) + 'ms');
 
 
     });
