@@ -15,14 +15,14 @@ exports.run = (client, message, args) => {
 
 
 
-      const avatar2 = new Discord.RichEmbed()
+      const avatar = new Discord.RichEmbed()
 
       .setColor('RANDOM')
       .setTitle(`Avatar de ${user.username}`, `${user.avatarURL}`)
       .setThumbnail(`${user.avatarURL}`)
       
 
-      message.channel.send(avatar2)
+      message.channel.send(avatar)
   
     };
 
