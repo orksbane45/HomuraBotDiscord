@@ -12,7 +12,7 @@ exports.run = (client, message, params) => {
   .setAuthor('Liste des commandes :')
   .addField('<:TBtsukibot:500715036583395329> Administration/Modération',' `purge`, `mute`, `blacklist`, `kick`, `ban`,`vote`,`adminsay`')
   .addField('<:TBgames:500713349986648094> Fun',' `roll`, `master`, `8ball`, `say`')
-  .addField('<:TBinfo:500711722839965723> Information',' `stats`, `serveurinfo`, `invite`, `discord`, `ping`, `help`, `profile`, `avatar`, `partenariat`')
+  .addField('<:TBinfo:500711722839965723> Information',' `stats`, `serveurinfo`, `invite`, `ping`, `help`, `profile`, `avatar`, `partenariat`')
   .setDescription("Utilise la commande `t!help <commande>` pour plus d'informations.`")
   .setTimestamp()
 
