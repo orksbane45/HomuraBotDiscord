@@ -11,7 +11,7 @@ exports.run = (client, message, args) => {
       
 
 
-  if (message.mentions.users.size < 1) return message.channel.send(avatar1)
+  if (message.mentions.users.size < 1) return message.channel.send(avatar2)
 
 
 
