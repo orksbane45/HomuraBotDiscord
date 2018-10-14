@@ -12,7 +12,7 @@ exports.run = (client, message, args) => {
 
 
   if (message.mentions.users.size < 1) return message.channel.send(avatar1)
-}else{
+
 
 
       const avatar2 = new Discord.RichEmbed()
