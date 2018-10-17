@@ -9,7 +9,7 @@ exports.run = function(client, message, args) {
   uptime = days + "d" + hours + "h" + minutes + "m" + seconds + "s";
 
   const msg = new Discord.RichEmbed()
-    .setColor('RANDOM')
+    .setColor('#FF7AED')
     .setThumbnail(client.avatarURL)
     .setTitle(`Stats de TsukiBot`)
     .setThumbnail(client.avatarURL)
