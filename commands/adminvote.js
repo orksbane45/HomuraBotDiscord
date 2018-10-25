@@ -14,6 +14,7 @@ exports.run = (client, message) => {
     msg.react("❌");
 
    });
+ }
 };
     exports.conf = {
       enabled: true,
