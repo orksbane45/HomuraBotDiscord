@@ -8,10 +8,10 @@ exports.run = (client, message) => {
     var embed = new Discord.RichEmbed()
     .setColor('RANDOM')
     .setDescription(`**${args.join(" ")}**\r\r✅ = oui\r❌ = non`)
-    .then(msg => {
-    msg.channel.send(embed);
-    msg.react("✅");
-    msg.react("❌");
+
+    message.channel.send(embed)
+    message.react("✅");
+    message.react("❌");
 
    });
  }
