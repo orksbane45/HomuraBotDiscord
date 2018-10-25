@@ -8,14 +8,19 @@ exports.run = (client, message) => {
     var embed = new Discord.RichEmbed()
     .setColor('RANDOM')
     .setDescription(`**${args.join(" ")}**\r\r✅ = oui\r❌ = non`)
-    message.channel.send(embed)
+    .then(msg => {
+    msg.channel.send(embed);
+    msg.react("✅");
+    msg.react("❌");
 
-   } 
+   }else{
+    message.reply("nop")
+   }
 };
     exports.conf = {
       enabled: true,
       guildOnly: false,
-      aliases: [],
+      aliases: ["avote"],
       permLevel: 0
     };
 
