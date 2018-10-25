@@ -1,5 +1,5 @@
 const Discord = require('discord.js');
-exports.run = (client, message) => {
+exports.run = async (client, message) => {
 
  if (message.member.hasPermission('ADMINISTRATOR') || message.author.id == 302837596600664065) {
 
@@ -13,8 +13,8 @@ exports.run = (client, message) => {
     message.react("✅");
     message.react("❌");
 
-   });
- }
+   }
+ 
 };
     exports.conf = {
       enabled: true,
