@@ -9,9 +9,11 @@ exports.run = async (client, message) => {
     .setColor('RANDOM')
     .setDescription(`**${args.join(" ")}**\r\r✅ = oui\r❌ = non`)
 
-    message.channel.send(embed);
-    embed.react("✅");
-    embed.react("❌");
+    message.channel.send(embed).then( embed2 => {
+     embed2.react("✅");
+     embed2.react("❌");
+    });
+    
 
    }
  
