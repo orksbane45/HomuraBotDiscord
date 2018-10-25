@@ -10,8 +10,9 @@ exports.run = async (client, message) => {
     .setDescription(`**${args.join(" ")}**\r\r✅ = oui\r❌ = non`)
 
     message.channel.send(embed).then( embed2 => {
-     embed2.react("✅");
      embed2.react("❌");
+     embed2.react("✅");
+     
     });
     
 
