@@ -13,8 +13,6 @@ exports.run = (client, message) => {
     msg.react("✅");
     msg.react("❌");
 
-   }else{
-    message.reply("nop")
    }
 };
     exports.conf = {
