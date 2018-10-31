@@ -26,6 +26,7 @@ exports.run = function(client, message, args) {
        message.channel.sendMessage('<:TBgames:500713349986648094> La réponse est : Baka');
   }
 
+  
 }
 
     exports.conf = {
