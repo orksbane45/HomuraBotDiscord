@@ -68,8 +68,8 @@ client.on('warn', e => {
 });
 client.on("guildMemberAdd", async member => {
   console.log(`${member.id} joined the server.`)
-  let cb = ['bienvenue','Bienvenue','welcome','Welcome','👋▕-bienvenue']
-  let welcomechannel = member.guild.channels.find("name", cb)
+  
+  let welcomechannel = member.guild.channels.find("name", "bienvenue")
   let welcomeembed = new Discord.RichEmbed()
   .setColor("RANDOM")
   .setDescription(`Bienvenue, ${member} sur ${member.guild.name}`)
