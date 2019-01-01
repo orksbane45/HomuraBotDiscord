@@ -17,8 +17,8 @@ exports.run = function(client, message, args) {
     .addField('Serveurs ',`${client.guilds.size}`, true)
     .addField('Channels',`${client.channels.size}`, true)
     .addField('Uptime', uptime , true)
-    .addField('Créateur ',`InsinityZ | Tsuki#9062`, true)
-    .addField('Officiel server ','`t!discord`')
+    .addField('Créateur ',`<@318619541942960128>`, true)
+    .addField('Partenaires','`t!partenariat`')
     .setTimestamp()
     message.channel.send(msg)
 
