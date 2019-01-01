@@ -5,7 +5,7 @@ exports.run = function(client, message, args) {
 
     .setColor("RANDOM")
     .setTitle("Liste des Discord/BOT partenaire :")
-    .setDescription("Discord Miner (lien du bot)[https://discordbots.org/bot/492969308201418756]")
+    .setDescription("Discord Miner https://discordbots.org/bot/492969308201418756")
     
     
 
