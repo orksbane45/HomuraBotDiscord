@@ -4,10 +4,10 @@ exports.run = function(client, message, args) {
   const msg = new Discord.RichEmbed()
 
     .setColor("RANDOM")
-    .setTitle("Liste des Discord partenaire :")
-    .addField("<:TBlemondedetsuki:500983273929965568> Le monde de Tsuki", "https://discord.gg/uNbevga")
-    .addField("<:TBcatseyes:500982242068267016> Cat's Eyes","https://discord.gg/PHuFnfZ")
-    .addField("<:TBlauberge:503208272606527489> L'Auberge","https://discord.gg/HWuCq8a")
+    .setTitle("Liste des Discord/BOT partenaire :")
+    .setDescription("Discord Miner (lien du bot)[https://discordbots.org/bot/492969308201418756]")
+    
+    
 
 
 
