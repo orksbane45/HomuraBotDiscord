@@ -5,7 +5,8 @@ exports.run = function(client, message, args) {
 
     .setColor("RANDOM")
     .setTitle("Liste des Discord/BOT partenaire :")
-    .setDescription("Discord Miner https://discordbots.org/bot/492969308201418756")
+    .setDescription("https://discord.gg/Ycw3sqq")
+    .setImage('https://cdn.discordapp.com/attachments/525783553682702377/535166066356125716/AnimeWorld.png')
     
     
 
@@ -25,7 +26,7 @@ exports.conf = {
 
 exports.help = {
   name: 'partenariat',
-  description: 'Affiche la liste des partenariat du bot.',
+  description: 'Affiche la liste des partenaires du bot.',
   usage: 'partenariat',
   aliase: ['pt']
 };
