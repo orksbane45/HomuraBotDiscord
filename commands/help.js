@@ -13,7 +13,7 @@ exports.run = (client, message, params) => {
   .addField('<:TBtsukibot:500715036583395329> Administration/Modération',' `purge`, `mute`, `blacklist`, `kick`, `ban`,`vote`,`adminsay`')
   .addField('<:TBgames:500713349986648094> Fun',' `roll`, `master`, `8ball`, `say`, `killme`')
   .addField('<:TBinfo:500711722839965723> Information',' `stats`, `serveurinfo`, `invite`, `ping`, `help`, `profile`, `avatar`')
-  .setDescription("Utilise la commande `t!help <commande>` pour plus d'informations.`")
+  .setDescription("Mise a jour du bot...\rUtilise la commande `t!help <commande>` pour plus d'informations.`")
   .setTimestamp()
 
               message.channel.send(msg);
