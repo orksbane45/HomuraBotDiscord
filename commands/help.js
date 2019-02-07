@@ -8,12 +8,12 @@ exports.run = (client, message, params) => {
 
   const msg = new Discord.RichEmbed()
 
-  .setColor('RANDOM')
+  .setColor('#3C2A66')
   .setAuthor('Liste des commandes :')
-  .addField('<:TBtsukibot:500715036583395329> Administration/Modération',' `purge`, `mute`, `blacklist`, `kick`, `ban`,`vote`,`adminsay`')
-  .addField('<:TBgames:500713349986648094> Fun',' `roll`, `master`, `8ball`, `say`, `killme`')
-  .addField('<:TBinfo:500711722839965723> Information',' `stats`, `serveurinfo`, `invite`, `ping`, `help`, `profile`, `avatar`')
-  .setDescription("Mise a jour du bot...\rUtilise la commande `t!help <commande>` pour plus d'informations.`")
+  .addField('Administration/Modération',' `purge`, `mute`, `blacklist`, `kick`, `ban`,`vote`,`adminsay`')
+  .addField('Fun',' `roll`, `master`, `8ball`, `say`, `killme`,`hug`')
+  .addField('Information',' `stats`, `serveurinfo`, `invite`, `ping`, `help`, `profile`, `avatar`')
+  .setDescription(":warning: Mise a jour du bot...\rUtilise la commande `h!help <commande>` pour plus d'informations.")
   .setTimestamp()
 
               message.channel.send(msg);
@@ -24,12 +24,12 @@ exports.run = (client, message, params) => {
       command = client.commands.get(command);
 
       const msg2 = new Discord.RichEmbed()
-      .setColor('RANDOM')
+      .setColor('#3C2A66')
       .setTitle(`**Commande :** ${command.help.name}`)
       .addField("Description", command.help.description)
       .addField("Utilisation", command.help.usage)
       .addField("Aliases", command.help.aliase)
-      .setThumbnail("https://cdn.discordapp.com/attachments/489448852882063360/500970511304753172/info.png")
+      .setThumbnail("https://tenor.com/view/homura-homura-akemi-madoka-magica-tied-tied-up-gif-9917831")
       
   message.channel.send(msg2)
     }
