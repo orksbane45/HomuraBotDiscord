@@ -23,8 +23,7 @@ exports.run = (client, message, params) => {
     if (client.commands.has(command)) {
       command = client.commands.get(command);
 let cmdaliase = command.help.aliase;
-    if (cmdaliase === "undifined") cmdaliase = "Aucun aliase trouvé pour cette commande.";
-      return cmdaliase;
+   
       const msg2 = new Discord.RichEmbed()
       .setColor('#3C2A66')
       .setTitle(`**Commande :** ${command.help.name}`)
