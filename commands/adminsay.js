@@ -6,7 +6,7 @@ message.delete()
     message.channel.send(args.join(" "))
 
 }else{
-    message.reply("<:TBstop:500713271532453890> Tu n'as pas les bonnes permissions pour utlisez cette commande !");
+    message.reply("<:HBstop:543117234273386516> Tu n'as pas les bonnes permissions pour utlisez cette commande !");
 }
 };
     exports.conf = {
