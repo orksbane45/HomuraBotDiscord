@@ -22,14 +22,16 @@ exports.run = (client, message, params) => {
     let command = params[0];
     if (client.commands.has(command)) {
       command = client.commands.get(command);
-
+let cmdaliase = command.help.aliase;
+    if (cmdaliase === "undifined") cmdaliase = "Aucun aliase trouvé pour cette commande.";
+      return cmdaliase;
       const msg2 = new Discord.RichEmbed()
       .setColor('#3C2A66')
       .setTitle(`**Commande :** ${command.help.name}`)
       .addField("Description", command.help.description)
       .addField("Utilisation", command.help.usage)
-      .addField("Aliases", command.help.aliase)
-      .setThumbnail("https://tenor.com/view/homura-homura-akemi-madoka-magica-tied-tied-up-gif-9917831")
+      .addField("Aliases", cmdaliase)
+      
       
   message.channel.send(msg2)
     }
