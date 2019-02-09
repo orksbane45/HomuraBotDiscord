@@ -5,7 +5,7 @@ exports.run = function(client, message, args) {
     limit: messagecount
   }).then(messages => message.channel.bulkDelete(messages));
 }else {
-message.reply(" <:TBstop:500713271532453890> Vous n'avez pas les bonnes permissions !");
+message.reply("<:HBconfig:543117201817862145> Vous n'avez pas les bonnes permissions !");
      };
 };
 exports.conf = {
