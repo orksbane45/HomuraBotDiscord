@@ -13,7 +13,7 @@ exports.run = (client, message, args) => {
 
   
 
-      message.channel.send(`<:HByes:543783599883681825> ${user.tag} ban !`)
+      message.channel.send(`<:HByes:543783599883681825> **${user.tag}** ban !`)
    }else{
      message.reply("<:HBconfig:543117201817862145> Vous n'avez pas les permissions requises pour ban un utilisateur");
    };
