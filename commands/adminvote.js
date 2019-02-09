@@ -7,11 +7,11 @@ exports.run = async (client, message) => {
     message.delete()
     var embed = new Discord.RichEmbed()
     .setColor('RANDOM')
-    .setDescription(`**${args.join(" ")}**\r\r✅ = oui\r❌ = non`)
+    .setDescription(`**${args.join(" ")}**\r\r<:HByes:543783599883681825> = oui\r❌ = non`)
 
     message.channel.send(embed).then( embed2 => {
      embed2.react("❌");
-     embed2.react("✅");
+     embed2.react("<:HByes:543783599883681825>");
      
     });
     
