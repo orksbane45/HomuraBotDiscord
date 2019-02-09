@@ -14,7 +14,7 @@ exports.run = function(client, message, args) {
 
   
     const msg = new Discord.RichEmbed()
-      .setColor('RANDOM')
+      .setColor('3C2A66')
       .setTitle(`Profile de **${message.author.username}**`)
       .setThumbnail(`${message.author.avatarURL}`)
       .addField('Pseudonyme', `${message.author.username}`)
@@ -37,5 +37,5 @@ exports.run = function(client, message, args) {
     name: 'profile',
     description: 'Affiche votre profile',
     usage: 'profile',
-    aliase: ['Aucun aliase n\'est disponible pour cette commandes.']
+    aliase: ['Aucun aliase n\'est disponible pour cette commande.']
   }
