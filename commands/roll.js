@@ -44,5 +44,5 @@ exports.run = function(client, message, args) {
         name: 'roll',
         description: 'Vous donne un chiffre entre 1 et 10 !',
         usage: 'roll',
-        aliase: ['Aucun aliase n\'est disponible pour cette commandes.']
+        aliase: ['Aucun aliase n\'est disponible pour cette commande.']
       }
