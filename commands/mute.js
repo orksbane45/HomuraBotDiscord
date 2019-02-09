@@ -9,11 +9,7 @@ exports.run = async (client, message, args) => {
  if (!message.guild.member(client.user).hasPermission('MANAGE_ROLES_OR_PERMISSIONS')) return message.replay("<:HBstop:543117234273386516> Je n'ai pas les bonnes permissions").catch(console.error);
 
 
-if (message.guild.member(user).hasRole(muteRole))  message.guild.member(user).removeRole(muteRole).then(()=> {
 
-   
-            message.channel.sendMessage(`<:HByes:543783599883681825> **${user.username}** est maintenant unmute !`)
-    });
 
  message.guild.member(user).addRole(muteRole).then(()=> {
 
