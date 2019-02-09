@@ -5,7 +5,7 @@ exports.run = (client, message, args) => {
 
       const avatar2 = new Discord.RichEmbed()
 
-      .setColor('RANDOM')
+      .setColor("3C2A66")
       .setTitle(`Avatar de ${user2.username}`, `${user2.avatarURL}`)
       .setThumbnail(`${user2.avatarURL}`)
       
@@ -17,7 +17,7 @@ exports.run = (client, message, args) => {
 
       const avatar = new Discord.RichEmbed()
 
-      .setColor('RANDOM')
+      .setColor("1E201C")
       .setTitle(`Avatar de ${user.username}`, `${user.avatarURL}`)
       .setThumbnail(`${user.avatarURL}`)
       
