@@ -18,5 +18,5 @@ exports.help = {
   name: 'killme',
   description: 'fun',
   usage: 'killme',
-  aliase: ['Aucun aliase n\'est disponible pour cette commandes.']
+  aliase: ['Aucun aliase n\'est disponible pour cette commande.']
 };
