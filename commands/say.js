@@ -6,7 +6,7 @@ exports.run = (client, message) => {
     let args = message.content.split(" ").slice(1);
     message.delete()
     var embed = new Discord.RichEmbed()
-    .setColor('RANDOM')
+    .setColor('3C2A66')
     .setDescription(`${args.join(" ")}`)
     message.channel.send(embed)
 
@@ -23,5 +23,5 @@ exports.run = (client, message) => {
       name: 'say',
       description: 'Le bot redit ce que vous ditez !',
       usage: 'say [message]',
-      aliase: ['Aucun aliase n\'est disponible pour cette commandes.']
+      aliase: ['Aucun aliase n\'est disponible pour cette commande.']
     }
