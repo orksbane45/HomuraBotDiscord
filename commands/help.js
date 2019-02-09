@@ -10,9 +10,9 @@ exports.run = (client, message, params) => {
 
   .setColor('#3C2A66')
   .setAuthor('Liste des commandes :')
-  .addField('<:HBconfig:543117201817862145> Administration/Modération',' `purge`, `mute`, `blacklist`, `kick`, `ban`, `vote`, `adminsay`')
-  .addField('<:HBgame:543120810689167361> Fun',' `roll`, `master`, `8ball`, `say`, `killme`, `hug`')
-  .addField('<:HBinfo:543117222097453059> Information',' `stats`, `serveurinfo`, `invite`, `ping`, `help`, `profile`, `avatar`')
+  .addField('<:HBconfig:543117201817862145> Administration/Modération',' `purge`, `mute`, `blacklist`, `kick`, `ban`, `avote`, `asay`')
+  .addField('<:HBgame:543120810689167361> Fun',' `roll`, `master`, `8ball`, `say`, `vote`, `killme`, `hug`, `kiss [DEV]`')
+  .addField('<:HBinfo:543117222097453059> Information',' `stats`, `serveurinfo`, `invite`, `ping`, `help`, `profile`, `avatar`, `changelog`')
   .setDescription("<:HBconfig:543117201817862145> Mise a jour du bot... <:HBconfig:543117201817862145>\rUtilise la commande `h!help <commande>` pour plus d'informations.")
   .setTimestamp()
 
