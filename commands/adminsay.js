@@ -6,7 +6,7 @@ message.delete()
     message.channel.send(args.join(" "))
 
 }else{
-    message.reply("<:HBstop:543117234273386516> Tu n'as pas les bonnes permissions pour utlisez cette commande !");
+    message.reply("<:HBconfig:543117201817862145> Vous n'avez pas les bonnes permissions pour utlisez cette commande !");
 }
 };
     exports.conf = {
