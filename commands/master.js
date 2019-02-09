@@ -19,5 +19,5 @@ exports.help = {
   name: 'master',
   description: '?',
   usage: 'master',
-  aliase: ['Aucun aliase n\'est disponible pour cette commandes.']
+  aliase: ['Aucun aliase n\'est disponible pour cette commande.']
 };
