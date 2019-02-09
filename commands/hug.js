@@ -192,7 +192,7 @@ exports.run = (client, message, args) => {
     .setImage('https://media.discordapp.net/attachments/489448852882063360/543793059045965834/TR2G.gif')
     message.channel.send(msg)
   }
-
+ 
 }
   exports.conf = {
     enabled: true,
