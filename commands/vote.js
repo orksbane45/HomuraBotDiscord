@@ -10,7 +10,7 @@ module.exports.run = async (client, message) => {
       let args = message.content.split(" ").slice(1);
       message.delete()
 
-    let msg = await message.channel.send(`‗‗‗‗‗‗‗‗\n\n**Vote par** : ${message.author.tag}\n**Question** : ${args.join(" ")}\n**Temps** : 2H\n‗‗‗‗‗‗‗‗`);
+    let msg = await message.channel.send(`‗‗‗‗‗‗‗‗\n\n**Vote par** : ${message.author.tag}\n**Question** : ${args.join(" ")}\nMerci d'utilisez la commande \`h!avote\`\n‗‗‗‗‗‗‗‗`);
     await msg.react(agree);
     await msg.react(disagree);
 
