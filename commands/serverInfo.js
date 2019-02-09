@@ -16,7 +16,7 @@ module.exports.run = async (bot, message, args) => {
   
     let serverembed = new Discord.RichEmbed()
     
-    .setColor("RANDOM")
+    .setColor("3C2A66")
     .setThumbnail(sicon)
     .addField("Nom du serveur", message.guild.name)
     .addField("ID du serveur", message.guild.id)
@@ -40,7 +40,7 @@ module.exports.run = async (bot, message, args) => {
 
       exports.help = {
         name: 'serveurinfo',
-        description: 'Affiche les informations du serveurs !',
+        description: 'Affiche les informations du serveur !',
         usage: 'serveurinfo',
         aliase: ["si"]
       }
