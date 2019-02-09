@@ -5,8 +5,9 @@ exports.run = async (client, message) => {
 
     let args = message.content.split(" ").slice(1);
     message.delete()
+  var embedcolor = #3C2A66 || #1E201C;
     var embed = new Discord.RichEmbed()
-    .setColor('RANDOM')
+    .setColor(embedcolor)
     .setDescription(`**${args.join(" ")}**\r\r<:HByes:543783599883681825> = oui\r<:HBno:543784274650726403> = non`)
 
     message.channel.send(embed).then( embed2 => {
