@@ -7,13 +7,13 @@ exports.run = (client, message, args) => {
   
   let reason = args.slice(1).join(' ');
   let user = message.mentions.users.first();
-  if (message.mentions.users.size < 1) return message.reply("<:TBstop:500713271532453890> Vous devez mentionner quelqu'un pour le kick.").catch(console.error);
+  if (message.mentions.users.size < 1) return message.reply("<:HBinfo:543117222097453059> Vous devez mentionner quelqu'un pour le kick.").catch(console.error);
 
-  if (!message.guild.member(user).kickable) return message.reply("<:TBstop:500713271532453890> Je ne peut pas kick cet utilisateur.");
+  if (!message.guild.member(user).kickable) return message.reply("<:HBstop:543117234273386516> Je ne peut pas kick cet utilisateur.");
   message.guild.member(user).kick();
 
     
-    message.channel.send(`**${user}** ban avec succes !`);
+    message.channel.send(`<:HByes:543783599883681825> **${user}** kick !`);
   }
   
 };
@@ -28,6 +28,6 @@ exports.conf = {
 exports.help = {
   name: 'kick',
   description: 'Kick un utilisateur.',
-  usage: 'kick [mention]',
-  aliase: ['Aucun aliase n\'est disponible pour cette commandes.']
+  usage: 'kick <mention>',
+  aliase: ['Aucun aliase n\'est disponible pour cette commande.']
 };
