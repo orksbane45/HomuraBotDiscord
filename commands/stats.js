@@ -9,16 +9,16 @@ exports.run = function(client, message, args) {
   uptime = days + "d" + hours + "h" + minutes + "m" + seconds + "s";
 
   const msg = new Discord.RichEmbed()
-    .setColor('#FF7AED')
+    .setColor('#3C2A66')
     .setThumbnail(client.avatarURL)
-    .setTitle(`Stats de TsukiBot`)
-    .setThumbnail(client.avatarURL)
+    .setTitle(`Stats de Homura Bot`)
+    .setThumbnail("https://images-ext-2.discordapp.net/external/b4PfO3tsECLmszP_eDTo7CCYwee9gUnIb2f-gkGgs54/%3Fsize%3D2048/https/cdn.discordapp.com/avatars/500699327262359574/b2a299893ea4e81251edf401a26ca8fb.png?width=663&height=663")
     .addField('Utilisateurs ',`${client.users.size}`, true)
     .addField('Serveurs ',`${client.guilds.size}`, true)
     .addField('Channels',`${client.channels.size}`, true)
     .addField('Uptime', uptime , true)
     .addField('Créateur ',`<@302837596600664065>`, true)
-    .addField('Partenaires','`t!partenariat`')
+    .addField('Partenaires','`h!partenariat`')
     .setTimestamp()
     message.channel.send(msg)
 
@@ -35,6 +35,6 @@ exports.run = function(client, message, args) {
     name: 'stats',
     description: 'Affiche les stats du bot.',
     usage: 'stats',
-    aliase: ['Aucun aliase n\'est disponible pour cette commandes.']
+    aliase: ['Aucun aliase n\'est disponible pour cette commande.']
 
   }
