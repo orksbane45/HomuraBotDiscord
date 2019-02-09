@@ -12,14 +12,14 @@ exports.run = function(client, message, args) {
           blcmd = blcmd + " ``"+blackList[""+message.channel.id+""][i]+"`` ";
         }
         console.log(blackList[""+message.channel.id+""]);
-        message.channel.send(`**<:TBinfo:500711722839965723> Liste des commandes blackList sur le channel <#${message.channel.id}> :** \n\n${blcmd}`);
+        message.channel.send(`**<:HBconfig:543117201817862145> Liste des commandes blackList sur le channel <#${message.channel.id}> :** \n\n${blcmd}`);
       }else{
-        message.channel.send(`<:TBinfo:500711722839965723> Aucune commande blackList sur le channel <#${message.channel.id}>`)
+        message.channel.send(`<:HBconfig:543117201817862145> Aucune commande blackList sur le channel <#${message.channel.id}>`)
       }
     }else if (command.filter(s => s.includes(args[0])) == args[0]) {
       if (blackList[""+message.channel.id+""]) {
         if (blackList[""+message.channel.id+""].filter(s => s.includes(args[0])) == args[0]) {
-          message.channel.send('<:TBinfo:500711722839965723> Commande ``'+args[0]+'`` unblacklisted');
+          message.channel.send('<:HBconfig:543117201817862145> Commande ``'+args[0]+'`` unblacklisted');
           function remove(arr, what) {
             if (blackList[""+message.channel.id+""].length == 0) {
               delete blackList[""+message.channel.id+""];
@@ -34,24 +34,24 @@ exports.run = function(client, message, args) {
           }
           remove(blackList[""+message.channel.id+""],args[0])
         }else{
-          message.channel.send('<:TBinfo:500711722839965723> Commande ``'+args[0]+'`` blacklisted ')
+          message.channel.send('<:HBconfig:543117201817862145> Commande ``'+args[0]+'`` blacklisted ')
           blackList[""+message.channel.id+""].push(args[0]);
         }
       }else{
           blackList[""+message.channel.id+""] = [];
           blackList[""+message.channel.id+""].push(args[0]);
-          message.channel.send('<:TBinfo:500711722839965723> Commande ``'+args[0]+'`` blacklisted ')
+          message.channel.send('<:HBconfig:543117201817862145> Commande ``'+args[0]+'`` blacklisted ')
  
       }
       var json = JSON.stringify(blackList);
       fs.writeFileSync('blacklist.json', json, 'utf8');
     }else if (args[0]) {
-      message.channel.send('<:TBstop:500713271532453890> Commande : ``' +args[0]+ '`` inexistante !')
+      message.channel.send('<:HBconfig:543117201817862145> Commande : ``' +args[0]+ '`` inexistante !')
     }else{
       message.channel.send('Utilisation : `t!bl {commande}` / `t!bl list`')
     }
   }else {
-    message.channel.send('<:TBstop:500713271532453890> Permisions insufisantes ! <:IZBadmin:460849349019303936>')
+    message.channel.send('<:HBconfig:543117201817862145> Permisions insufisantes ! <:HBconfig:543117201817862145>')
   }
 }
  
