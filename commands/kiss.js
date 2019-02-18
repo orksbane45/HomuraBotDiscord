@@ -21,7 +21,7 @@ exports.run = (client, message, args) => {
 
         let picker = Math.floor(Math.random() * places.length); //Randome
 
-        return message.channel.send(places[picker]); //message embed (dans ton cas)
+        
     
 
     msg = new Discord.RichEmbed()
