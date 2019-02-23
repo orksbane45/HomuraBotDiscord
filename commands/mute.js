@@ -1,6 +1,6 @@
 const Discord = require('discord.js');
 exports.run = async (client, message, args) => {
-  if (message.member.hasPermission('MANAGE_ROLES_OR_PERMISSIONS') || message.member.hasPermission('ADMINISTRATOR') || message.author.id == 302837596600664065) {
+  if (message.member.hasPermission('MANAGE_ROLES') || message.member.hasPermission('ADMINISTRATOR') || message.author.id == 302837596600664065) {
   let user = message.mentions.users.first();
   let muteRole = client.guilds.get(message.guild.id).roles.find('name', 'Muted');
   if (!muteRole) return message.channel.send("<:HBconfig:543117201817862145> Aucun rôle \"Muted\" n'a était trouver sur le serveur merci d'en crée un pour pouvoir mute.")
