@@ -14,7 +14,7 @@ message.channel.send("Do you want to make a contract? ／人◕ ‿‿ ◕人＼
 exports.conf = {
   enabled: true,
   guildOnly: false,
-  aliases: ["Kyuubey"],
+  aliases: ['kyuubey'],
   permLevel: 0
 };
 
