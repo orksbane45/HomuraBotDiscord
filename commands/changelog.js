@@ -7,7 +7,7 @@ exports.run = (client, message, args) => {
   
     var embed = new Discord.RichEmbed()
     .setColor("3C2A66")
-    .setTitle("Derniere mise a jour : 23/02/2019")
+    .setTitle("Derniere mise a jour : 27/02/2019")
     .addField("Nouvelles commandes :", "`h!character`, `h!kyuubey`")
     
     message.channel.send(embed)
