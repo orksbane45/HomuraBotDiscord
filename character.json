@@ -1,0 +1,82 @@
+{
+
+ "madoka": {
+  "color": "#ff69b4",
+  "image": "https://statici.behindthevoiceactors.com/behindthevoiceactors/_img/chars/madoka-kaname-puella-magi-madoka-magica-the-movie-part-2-eternal-2.51.jpg",
+  "nom": "Kaname Madoka",
+  "age": "14",
+  "description": "Madoka Kaname ( ame 目 ま ど か Kaname Madoka ? ) est le personnage principal de la série télévisée Puella Magi Madoka Magica . C'est une fille timide et gentille qui se soucie profondément de ses amis mais a une faible confiance en elle. Après être devenue une fille magique, elle gagne en confiance.",
+  "cheveux": "Rose",
+  "arme": "Arc"
+ },
+  
+ "homura": {
+  "color": "#3C2A66",
+  "image": "http://pre08.deviantart.net/ee1d/th/pre/i/2015/347/c/0/homura_akemi_by_antoyuju-d9jy0la.png",
+  "nom": "Akemi Homura",
+  "age": "14",
+  "description": "Homura Akemi ( 曉美ほむら Akemi Homura ? ) est une fille qui ne montre pas ses sentiments. Elle fait tout pour sauver Madoka.",
+  "cheveux": "Noir",
+  "arme": "Equipement militaire + controlle du temps"
+ },
+ 
+ "sayaka": {
+  "color": "#38eeff",
+  "image": "https://pbs.twimg.com/profile_images/378800000246962549/3531c09c91a9b935b784039a8a6d8100_400x400.jpeg",
+  "nom": "Sayaka Miki",
+  "age": "",
+  "description": "",
+  "cheveux": "",
+  "arme": ""
+ },
+ 
+ "kyuubey": {
+  "color": "",
+  "image": "",
+  "nom": "",
+  "age": "",
+  "description": "",
+  "cheveux": "",
+  "arme": ""
+ },
+ 
+ "charlotte": {
+  "color": "",
+  "image": "",
+  "nom": "",
+  "age": "",
+  "description": "",
+  "cheveux": "",
+  "arme": ""
+ },
+ 
+ "nagisa": {
+  "color": "",
+  "image": "",
+  "nom": "",
+  "age": "",
+  "description": "",
+  "cheveux": "",
+  "arme": ""
+ },
+ 
+ "sakura": {
+  "color": "",
+  "image": "",
+  "nom": "",
+  "age": "",
+  "description": "",
+  "cheveux": "",
+  "arme": ""
+ },
+ 
+ "mami": {
+  "color": "",
+  "image": "",
+  "nom": "",
+  "age": "",
+  "description": "",
+  "cheveux": "",
+  "arme": ""
+ },
+}
