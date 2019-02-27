@@ -14,7 +14,7 @@ exports.run = (client, message, params) => {
   let character = ch[params[0]];
 
   msg = new Discord.RichEmbed()
-        .setColor('#3C2A66')
+        .setColor(character.color)
         .setTitle('Informations sur : ' + params[0])
         .addField('Nom : ', character.nom , true)
         .addField('Age : ', character.age , true)
