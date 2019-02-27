@@ -35,7 +35,7 @@ exports.conf = {
 };
 
 exports.help = {
-  name: 'roleinfo',
+  name: 'character',
   description: 'Vous donne toutes les informations sur les personnages de Madoka Magica.',
   usage: 'character <personnage>',
   aliase: ['Aucun aliase n\'est disponible pour cette commande.']
