@@ -24,59 +24,59 @@
   "color": "#38eeff",
   "image": "https://pbs.twimg.com/profile_images/378800000246962549/3531c09c91a9b935b784039a8a6d8100_400x400.jpeg",
   "nom": "Sayaka Miki",
-  "age": "",
-  "description": "",
-  "cheveux": "",
-  "arme": ""
+  "age": "13-14",
+  "description": "Sayaka Miki est la meilleur amie de Madoka.",
+  "cheveux": "Bleu",
+  "arme": "Épee + régénération rapide"
  },
  
  "kyuubey": {
-  "color": "",
-  "image": "",
-  "nom": "",
-  "age": "",
-  "description": "",
-  "cheveux": "",
-  "arme": ""
+  "color": "#FFFFFF",
+  "image": "https://vignette.wikia.nocookie.net/villains/images/3/36/Kyubey2.png/revision/latest?cb=20160427035119",
+  "nom": "Kyuubey / Incubateur",
+  "age": "Inconnu",
+  "description": "Kyubey ( え ュ ゥ べ Kyūbē ? ) est un incubateur, également appelé messager de la magie. Il exauce les souhaits des filles normales en échange de leur âme.",
+  "cheveux": "Poil : blanc",
+  "arme": "Exauce des souhaits"
  },
  
  "charlotte": {
-  "color": "",
-  "image": "",
-  "nom": "",
-  "age": "",
-  "description": "",
-  "cheveux": "",
-  "arme": ""
+  "color": "#CC55E9",
+  "image": "https://t00.deviantart.net/0aXsoxZuL1v6y8rN3UCKjbYT54g=/fit-in/300x900/filters:no_upscale():origin()/pre00/bd76/th/pre/i/2011/221/f/4/pmmm___dessert_witch_humor_by_spdude18-d4604zh.png",
+  "nom": "Charlotte / Bebe / Nagisa Momoe",
+  "age": "Inconnu",
+  "description": "Charlotte est une sorcière",
+  "cheveux": "Pas de cheveux dans ca forme sorcière.",
+  "arme": "Pas d'arme dans cette forme"
  },
  
  "nagisa": {
-  "color": "",
-  "image": "",
-  "nom": "",
-  "age": "",
-  "description": "",
-  "cheveux": "",
-  "arme": ""
+  "color": "#F5DAD1",
+  "image": "https://vignette.wikia.nocookie.net/madoka/images/f/f1/Vlcsnap-00553.png/revision/latest/scale-to-width-down/250?cb=20141013140818",
+  "nom": "Nagisa Momoe",
+  "age": "8-12",
+  "description": "On sait peu de choses sur Nagisa, que ce soit sa taille, son poids ou son groupe sanguin. C'est une jeune fille enjouée qui aime le fromage.",
+  "cheveux": "Blanc",
+  "arme": "Trompette a bulle"
  },
  
  "sakura": {
-  "color": "",
-  "image": "",
-  "nom": "",
-  "age": "",
-  "description": "",
-  "cheveux": "",
-  "arme": ""
+  "color": "#CF1A0E",
+  "image": "http://static2.minitokyo.net/view/07/15/663257.jpg",
+  "nom": "Sakura Kyojo",
+  "age": "14-17",
+  "description": "Sakura aime les pommes et vit seuls depuis longtemps.",
+  "cheveux": "Rouge",
+  "arme": "Lance + génére des boucliers"
  },
  
  "mami": {
-  "color": "",
-  "image": "",
-  "nom": "",
-  "age": "",
-  "description": "",
-  "cheveux": "",
-  "arme": ""
- },
+  "color": "#E3C416",
+  "image": "https://vignette.wikia.nocookie.net/madoka/images/f/fd/Mami_Tomoe.jpg/revision/latest?cb=20110116181817",
+  "nom": "Mami Tomoe",
+  "age": "15",
+  "description": "Mami Tomoe ( oe マ Tomoe Mami ? ) Est une fille magique expérimentée qui est très gentille. Elle est très gentille avec les autres et joue le rôle de mentor de Madoka et de Sayaka . Elle est un peu agressive et n'aime pas Homura .",
+  "cheveux": "Jaune",
+  "arme": "Pistolet"
+ }
 }
