@@ -12,6 +12,7 @@ exports.run = (client, message, params) => {
   .setAuthor('Liste des commandes :')
   .addField('<:HBconfig:543117201817862145> Administration/Modération',' `purge`, `mute`, `blacklist`, `kick`, `ban`, `avote`, `asay`')
   .addField('<:HBgame:543120810689167361> Fun',' `roll`, `master`, `8ball`, `say`, `vote[REWORK]`, `killme`, `hug[REWORK]`, `kiss`')
+  .addField('<:HBhomura:550341880198463489> Anime (madoka)',' `character`, `kyuubey`')
   .addField('<:HBinfo:543117222097453059> Information',' `stats`, `serveurinfo`, `invite`, `ping`, `help`, `profile`, `avatar`, `changelog`')
   .setDescription("Utilise la commande `h!help <commande>` pour plus d'informations.\rTu peut aussi voir toutes les informations sur les mise a jour du bot avec la commande `h!changelog`.")
   .setTimestamp()
