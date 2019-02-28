@@ -11,8 +11,8 @@ exports.run = async (client, message) => {
     .setDescription(`**${args.join(" ")}**\r\r<:HByes:543783599883681825> = oui\r<:HBno:543784274650726403> = non`)
 
     message.channel.send(embed).then( embed2 => {
-     embed2.react(message.guild.emojis.get('543783599883681825'))
-     embed2.react(message.guild.emojis.get('543784274650726403'))
+     embed2.react(message.guilds.emojis.get('543783599883681825'))
+     embed2.react(message.guilds.emojis.get('543784274650726403'))
      
     });
     
