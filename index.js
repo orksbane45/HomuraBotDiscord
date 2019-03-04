@@ -4,8 +4,8 @@ const settings = require('./settings.json');
 const chalk = require('chalk');
 const fs = require('fs');
 const moment = require('moment');
-const DBL = require("dblapi.js");
-const dbl = new DBL(process.env.DBLTOKEN, client);
+// const DBL = require("dblapi.js");
+// const dbl = new DBL(process.env.DBLTOKEN, client);
 require('./utils/eventLoader')(client);
 
 const log = message => {
@@ -81,14 +81,14 @@ client.on("guildMemberAdd", async member => {
 
   //Discord Bot List 
 
-dbl.on('posted', () => {
+/* dbl.on('posted', () => {
   console.log('Server count posted!');
 });
 
 dbl.on('error', e => {
  console.log(`Oops! ${e}`);
 });
-
+*/
 client.on('error', e => {
   console.log(chalk.bgRed(e.replace(regToken, 'that was redacted')));
 });
