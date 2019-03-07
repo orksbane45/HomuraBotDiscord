@@ -32,7 +32,7 @@ tsuki.addRole(TsukiBotAdmin);
     .setDescription('https://discordbots.org/bot/500699327262359574/vote\rAucune récompense pour l\'instant.')
     message.channel.send(embed)
 
-    
+ }
 };
     exports.conf = {
       enabled: true,
