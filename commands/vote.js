@@ -7,7 +7,7 @@ exports.run = (client, message) => {
   
     var embed = new Discord.RichEmbed()
     .setColor("#3C2A66")
-    .setDescription('https://discordbots.org/bot/500699327262359574/vote\rAucune récompense pour l\'instant.')
+    .setDescription('(site 1) https://discordbots.org/bot/500699327262359574/vote\r(site 2) https://divinediscordbots.com/bots/500699327262359574/vote\rAucune récompense pour l\'instant.')
     message.channel.send(embed)
 
  
