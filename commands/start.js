@@ -2,7 +2,7 @@
 const Discord = require('discord.js');
 
 
-exports.run = (client, message, params) => {
+exports.run = async (client, message, params) => {
 
 	const startembed = new Discord.RichEmbed()
 
