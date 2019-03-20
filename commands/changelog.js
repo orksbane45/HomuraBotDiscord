@@ -9,7 +9,7 @@ exports.run = (client, message, args) => {
     .setColor("3C2A66")
     .setTitle("Derniere mise a jour : 20/03/2019")
     .addField("Nouvelle commande :", "`h!suggestion`")
-    .addField("Mise a jour :", "`h!killme` + 2 textes aléatoire.")
+    .addField("Mise a jour :", "`h!killme` + 2 textes aléatoires.")
     .addField("Nouvaux partenaires :", "`h!parteriat`")
     
     message.channel.send(embed)
