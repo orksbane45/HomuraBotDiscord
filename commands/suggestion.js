@@ -2,7 +2,8 @@
 exports.run = (client, message, args) => {
   message.delete()
 
-
+let reason = args.slice(1).join(' ');
+ if (reason <1) return message.channel.send("Merci d'intégrer un message.");
   let suggestchan = client.channels.find('id', '557936381834297345');
       const embed = new Discord.RichEmbed()
 
@@ -16,7 +17,7 @@ exports.run = (client, message, args) => {
       suggestchan.send("<@302837596600664065>").then(Message => {
 Message.delete()
 });
-      message.return("<:HBsupport:543117250593554462> Votre suggestion a bien était envoyé.")
+      message.channel.return("<:HBsupport:543117250593554462> Votre suggestion a bien était envoyé.")
 
       };
 
