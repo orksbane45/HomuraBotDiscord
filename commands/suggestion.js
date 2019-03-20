@@ -1,9 +1,8 @@
  const Discord = require('discord.js');
 exports.run = (client, message, args) => {
-  message.delete()
+  
 
-let reason = args.slice(1).join(' ');
- if (!reason) return message.channel.send("Merci d'intégrer un message.");
+
   let suggestchan = client.channels.find('id', '557936381834297345');
       const embed = new Discord.RichEmbed()
 
