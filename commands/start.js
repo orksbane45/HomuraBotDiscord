@@ -1,8 +1,5 @@
-
-const Discord = require('discord.js');
-
-
-exports.run = async(client, message, params) => {
+onst Discord = require('discord.js');
+exports.run = async (client, message) => {
 
 	const startembed = new Discord.RichEmbed()
 
@@ -12,7 +9,7 @@ exports.run = async(client, message, params) => {
 
   
   
-  message.channel.send(startembed).then(Message => {
+  message.channel.send(startembed).then( Message => {
 Message.react(client.emojis.find('557952371821379584'));
 Message.react(client.emojis.find('557952378590986242'));
 Message.react(client.emojis.find('557952358022119446'));
