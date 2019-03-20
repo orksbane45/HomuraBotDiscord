@@ -11,11 +11,7 @@ exports.run = async (client, message) => {
   
   message.channel.send(startembed).then( Message => {
 Message.react(client.emojis.find('557952371821379584'));
-Message.react(client.emojis.find('557952378590986242'));
-Message.react(client.emojis.find('557952358022119446'));
-Message.react(client.emojis.find('557952350312988673'));
-Message.react(client.emojis.find('557952340137738241'));
-Message.react(client.emojis.find('557952365471465485'));
+
 });
 
 
