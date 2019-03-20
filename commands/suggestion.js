@@ -16,7 +16,7 @@ exports.run = (client, message, args) => {
       suggestchan.send("<@302837596600664065>").then(Message => {
 Message.delete()
 });
-      message.channel.return("<:HBsupport:543117250593554462> Votre suggestion a bien était envoyé.")
+      message.channel.send("<:HBsupport:543117250593554462> Votre suggestion a bien était envoyé.")
 
       };
 
