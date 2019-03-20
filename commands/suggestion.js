@@ -3,12 +3,12 @@ exports.run = (client, message, args) => {
   message.delete()
 
 let reason = args.slice(1).join(' ');
- if (reason <1) return message.channel.send("Merci d'intégrer un message.");
+ if (!reason) return message.channel.send("Merci d'intégrer un message.");
   let suggestchan = client.channels.find('id', '557936381834297345');
       const embed = new Discord.RichEmbed()
 
       .setColor("#3C2A66")
-      .setTitle(`‌‌${message.author.username}`)
+      .setTitle(`${message.author.username}`)
       .setDescription(args.join(" "))
       
 
