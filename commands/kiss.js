@@ -6,7 +6,7 @@ exports.run = (client, message, args) => {
   let user = message.mentions.users.first();
   
   
-  if (message.mentions.users.size < 1) return message.reply("<:HBconfig:543117201817862145> Vous devez mentionner quelqu'un pour lui fait un câlin.").catch(console.error);
+  if (message.mentions.users.size < 1) return message.reply("<:HBconfig:543117201817862145> Vous devez mentionner quelqu'un pour lui faire un bisou.").catch(console.error);
 
   let places = [ //liens des gifs
             "http://66.media.tumblr.com/aa980da52a100d7b1c0c25c8a0a1e19a/tumblr_n2os54fVdZ1rveihgo1_400.gif",
