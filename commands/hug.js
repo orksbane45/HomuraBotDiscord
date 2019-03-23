@@ -1,7 +1,7 @@
 const Discord = require('discord.js');
 exports.run = (client, message, args) => {
   let user = message.mentions.users.first();
-   if (message.mentions.users.size < 1) return message.reply("<:HBconfig:543117201817862145> Vous devez mentionner quelqu'un pour lui fait un câlin.").catch(console.error);
+   if (message.mentions.users.size < 1) return message.reply("<:HBconfig:543117201817862145> Vous devez mentionner quelqu'un pour lui faire un câlin.").catch(console.error);
 
   let places = [ //liens des gifs
             "https://cdn.discordapp.com/attachments/442055343544074240/442055795723730944/hug1.gif",
