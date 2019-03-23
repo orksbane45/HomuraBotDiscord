@@ -7,10 +7,9 @@ exports.run = (client, message, args) => {
   
     var embed = new Discord.RichEmbed()
     .setColor("3C2A66")
-    .setTitle("Derniere mise a jour : 20/03/2019")
-    .addField("Nouvelle commande :", "`h!suggestion`")
-    .addField("Mise a jour :", "`h!killme` + 2 textes aléatoires.")
-    .addField("Nouvaux partenaires :", "`h!parteriat`")
+    .setTitle("Derniere mise a jour : 23/03/2019")
+    .addField("Nouvelle commande :", "`h!pat (14 gifs)`")
+    .setDescription("|| Un jeux arrive sur le bot.||")
     
     message.channel.send(embed)
 
