@@ -42,7 +42,9 @@ msg = new Discord.RichEmbed()
     .setTitle(`<a:HBgifhug:527589131581128706> ${user.username}, vous avez reçu un câlin de ${message.author.username}`)
     .setColor('1E201C')
     .setImage(places[picker])
-    message.channel.send(msg)
+    message.channel.send(msg);
+  
+  console.log(places[picker])
 }
  
 
