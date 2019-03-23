@@ -70,9 +70,11 @@ client.on('warn', e => {
   console.log(chalk.bgYellow(e.replace(regToken, 'that was redacted')));
 });
 client.on("guildMemberAdd", async member => {
+   let welcomechannel = member.guild.channels.find("name", "bienvenue")
+  if (!welcomechannel) return
   console.log(`${member.id} joined the server.`)
   
-  let welcomechannel = member.guild.channels.find("name", "bienvenue")
+  
   let welcomeembed = new Discord.RichEmbed()
   .setColor("RANDOM")
   .setDescription(`Bienvenue, ${member} sur ${member.guild.name}`)
