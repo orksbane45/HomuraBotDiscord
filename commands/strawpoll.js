@@ -1,7 +1,7 @@
 const Discord = require('discord.js');
 exports.run = async (client, message) => {
 
- if (message.member.hasPermission('ADMINISTRATOR') || message.author.id == 302837596600664065) {
+ if (message.member.hasPermission('MANAGE_MESSAGES') || message.member.hasPermission('ADMINISTRATOR') || message.author.id == 302837596600664065) {
 
     let args = message.content.split(" ").slice(1);
     message.delete()
@@ -23,13 +23,13 @@ exports.run = async (client, message) => {
     exports.conf = {
       enabled: true,
       guildOnly: false,
-      aliases: ["avote"],
+      aliases: ["st"],
       permLevel: 0
     };
 
     exports.help = {
-      name: 'adminvote',
-      description: 'pifpaf',
-      usage: 'adminvote <message>',
-      aliase: ['avote']
+      name: 'strawpoll',
+      description: 'Lance un strawpoll',
+      usage: ' <message>',
+      aliase: ['st']
     }
