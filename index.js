@@ -80,6 +80,18 @@ client.on("guildMemberAdd", async member => {
   .setDescription(`Bienvenue, ${member} sur ${member.guild.name}`)
   welcomechannel.send(welcomeembed);
 });
+client.on("guildBotAdd", async client => {
+  
+  let botaddchannel = client.guild.channels.find("id", "559125047395090432")
+   
+  let botaddembed = new Discord.RichEmbed()
+  .setColor("RANDOM")
+  .addField("Nom du serveur", client.guild.name)
+  .addField("ID du serveur", client.guild.id)
+  .addField("ID du fonda", `<@${client.guild.ownerID}>`)
+  botaddchannel.send(botaddembed);
+  
+});
 
   //Discord Bot List 
 
