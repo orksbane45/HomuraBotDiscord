@@ -4,7 +4,7 @@ exports.run = (client, message) => {
 
 
         
-      msg.edit('<:HBinfo:543117222097453059>' + (msg.createdTimestamp - message.createdTimestamp) + ' ms');
+      msg.edit('<:HBinfo:543117222097453059> **' + (msg.createdTimestamp - message.createdTimestamp) + ' ms**');
 
  
     });
