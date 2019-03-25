@@ -7,7 +7,7 @@ exports.run = async (client, message, args) => {
   
 
  if (!message.guild.member(client.user).hasPermission('MANAGE_ROLES_OR_PERMISSIONS')) return message.replay("<:HBstop:543117234273386516> Je n'ai pas les bonnes permissions").catch(console.error);
-
+if (message.mentions.users.size < 1) return message.reply("<:HBinfo:543117222097453059> Vous devez mentionner quelqu'un pour le ban.").catch(console.error);
 
 
 
