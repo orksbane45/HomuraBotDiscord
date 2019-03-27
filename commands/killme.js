@@ -13,7 +13,7 @@ exports.run = (client, message, args) => {
    
     message.channel.send(`${message.author.username} est mort.`).then(Message => {
         setTimeout(() => { Message.edit("Réanimation..."); }, 3000);
-        setTimeout(() => { Message.edit(`${message.author.username}, Le médecin s'approche de votre lit et vous annonce "Le seul moyen que j'ai trouvé pour vous sauver était de vous donner les organes de Lyze qui est malheureusement mort sur le coup."`); }, 3000);
+        setTimeout(() => { Message.edit(`${message.author.username}, Le médecin s'approche de votre lit et vous annonce "Le seul moyen que j'ai trouvé pour vous sauver était de vous donner les organes de Lyze qui est malheureusement morte sur le coup."`); }, 3000);
     
     });
     }
