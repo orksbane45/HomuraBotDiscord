@@ -1,7 +1,9 @@
 const Discord = require("discord.js");
 exports.run = function(client, message, args) {
   
-  message.guild.createRole("name", "mute");
+  message.guild.createRole({
+  name: 'Muted'
+})
  
   
 }
@@ -9,12 +11,12 @@ exports.run = function(client, message, args) {
     exports.conf = {
       enabled: true,
       guildOnly: false,
-      aliases: ["rc"],
+      aliases: ["mr"],
       permLevel: 0
     };
 
     exports.help = {
-      name: 'createrole',
-      description: 'add a role to user',
-      usage: 'addrole'
+      name: 'muterole',
+      description: 'Rajoute le role Muted pour pouvoir mute les gens.',
+      usage: 'MuteRole'
     }
