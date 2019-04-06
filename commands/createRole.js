@@ -9,12 +9,12 @@ exports.run = function(client, message, args) {
     exports.conf = {
       enabled: true,
       guildOnly: false,
-      aliases: [],
+      aliases: ["rc"],
       permLevel: 0
     };
 
     exports.help = {
-      name: 'addrole',
+      name: 'createrole',
       description: 'add a role to user',
       usage: 'addrole'
     }
