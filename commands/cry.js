@@ -13,7 +13,8 @@ exports.run = (client, message, args) => {
             "https://media.discordapp.net/attachments/530571853278871552/564076422231097495/giphy.gif",
             "https://media.giphy.com/media/OimpWzqR5ND9e/giphy.gif",
             "https://media.giphy.com/media/dWbO5cuyqrhzW/giphy.gif",
-            "https://orig00.deviantart.net/ddb0/f/2015/016/d/2/fairytail_wendy_by_xmissmuffin-d8e4k05.gifhttp://66.media.tumblr.com/78267cb47579804868f00e0ea1b78ad9/tumblr_mowlhnOX7Q1rc4zmso2_r2_500.gif",
+            "https://orig00.deviantart.net/ddb0/f/2015/016/d/2/fairytail_wendy_by_xmissmuffin-d8e4k05.gif",
+            "http://66.media.tumblr.com/78267cb47579804868f00e0ea1b78ad9/tumblr_mowlhnOX7Q1rc4zmso2_r2_500.gif",
             "http://66.media.tumblr.com/78267cb47579804868f00e0ea1b78ad9/tumblr_mowlhnOX7Q1rc4zmso2_r2_500.gif"
         ];
 
