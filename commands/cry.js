@@ -20,7 +20,7 @@ exports.run = (client, message, args) => {
         let picker = Math.floor(Math.random() * places.length); 
   
 msg = new Discord.RichEmbed()
-    .setTitle(`<a:HBgifcry:564061613163020319> ${user.username} pleure, qui pour le/la consoler ?`)
+    .setTitle(`<a:HBgifcry:564061613163020319> ${message.author.username} pleure, qui pour le/la consoler ?`)
     .setColor('1E201C')
     .setImage(places[picker])
     message.channel.send(msg);
