@@ -5,17 +5,16 @@ exports.run = async (client, message) => {
 
 	.setColor("#1E201C")
 	.setTitle(`Inscription réussite ${message.author.username}`)
-	.addField("Interface de création de votre personnage :" , `<:HBcolorYellow:557952371821379584> Mami Tomoe\r<:HBcolorRed:557952378590986242> Sakura Kyoko\r<:HBcolorWhite:557952358022119446> Nagisa Momoe (premium)\r<:HBcolorPurple:557952350312988673> Homura Akemi\r<:HBcolorBlue:557952340137738241> Sayaka Miki\r<:HBcolorPink:557952365471465485> Madoka Kaname`)
+	.addField("Interface de création de votre personnage :" , `<:HBgemYellow:559873176004460544> Mami Tomoe\r<:HBgemRed:559873185307426837> Sakura Kyoko\r<:HBgemPurple:559873156270129162> Homura Akemi\r<:HBgemBlue:559873145373327360> Sayaka Miki\r<:HBgemPink:559873164679839745> Madoka Kaname`)
 
   
   
   message.channel.send(startembed).then( Message => {
-Message.react(client.emojis.find('id', '557952371821379584'));
-Message.react(client.emojis.find('id', '557952378590986242'));
-Message.react(client.emojis.find('id', '557952358022119446'));
-Message.react(client.emojis.find('id', '557952350312988673'));
-Message.react(client.emojis.find('id', '557952340137738241'));
-Message.react(client.emojis.find('id', '557952365471465485'));
+Message.react(client.emojis.find('id', '559873176004460544'));
+Message.react(client.emojis.find('id', '559873185307426837'));
+Message.react(client.emojis.find('id', '559873156270129162'));
+Message.react(client.emojis.find('id', '559873145373327360'));
+Message.react(client.emojis.find('id', '559873164679839745'));
 
 });
 
