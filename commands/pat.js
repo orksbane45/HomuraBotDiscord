@@ -18,6 +18,7 @@ exports.run = (client, message, args) => {
             "https://i.imgur.com/2lacG7l.gif",
             "https://66.media.tumblr.com/ea0a3110ef50e46336f9a996eb416ece/tumblr_p2kzogLOZU1vajq0ro4_500.gif",
             "https://media.tenor.com/images/022fa0537383fa20684cd67540b004fe/tenor.gihttpsf",
+            "https://media.discordapp.net/attachments/499657455186477067/568139939422928896/L4grsJC.gif",
             "https://media1.tenor.com/images/c0bcaeaa785a6bdf1fae82ecac65d0cc/tenor.gif?itemid=7453915",
             "https://media.tenor.com/images/7ccf285314342a829e37dac6be48adb1/tenor.gif",
             "https://media1.tenor.com/images/bf646b7164b76efe82502993ee530c78/tenor.gif?itemid=7394758",
