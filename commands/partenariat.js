@@ -6,7 +6,7 @@ exports.run = function(client, message, args) {
     .setColor("#3C2A66")
     .setTitle("Liste des Discords/BOTs partenaire :")
     .addField("Anime World" , "https://discord.gg/Ycw3sqq")
-    .addField("?" , "https://discord.gg/GUa6sZj")
+    .addField("EquiGhost'Server" , "https://discord.gg/GUa6sZj")
     .addField("• Andaria •" , "https://discord.gg/mSnF9K4")
     
     
