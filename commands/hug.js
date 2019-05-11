@@ -27,6 +27,8 @@ exports.run = (client, message, args) => {
             "https://cdn.weeb.sh/images/HJU2OdmwW.gif",
             "https://media.discordapp.net/attachments/489448852882063360/543793072031662093/tenor_1.gif",
             "https://media.discordapp.net/attachments/489448852882063360/543793071867822083/tenor.gif",
+            "https://media.tenor.com/images/a0255ad840bc7f700cf730519b966fdc/tenor.gif",
+            "https://media.tenor.com/images/0abe1090ab9874c62c4baaac18f0994d/tenor.gif",
             "https://media.discordapp.net/attachments/489448852882063360/543793059045965834/TR2G.gif"
         ];
 
