@@ -15,7 +15,15 @@ exports.run = (client, message, args) => {
             "https://media.giphy.com/media/nyGFcsP0kAobm/giphy.gif",
             "https://uploads.disquscdn.com/images/ddba021561a48a4680b7a743af4846670c5376fef71e67ad4cef398d3ae4db70.gif",
             "https://media.discordapp.net/attachments/489448852882063360/543808989302095872/kiss8.gif",
-            "https://media.discordapp.net/attachments/489448852882063360/543809025435762691/kiss9.gif"
+            "https://media.discordapp.net/attachments/489448852882063360/543809025435762691/kiss9.gif",
+            "https://media.tenor.com/images/f2795e834ff4b9ed3c8ca6e1b21c3931/tenor.gif",
+            "https://media.tenor.com/images/22798f3fb9495bd162881736fcc8dc19/tenor.gif",
+            "https://media.tenor.com/images/48963a8342fecf77d8eabfd2ab2e75c1/tenor.gif",
+            "https://media.tenor.com/images/9fb52dbfd3b7695ae50dfd00f5d241f7/tenor.gif",
+            "https://media.tenor.com/images/dd777838018ab9e97c45ba34596bb8de/tenor.gif",
+            "https://media.tenor.com/images/29b22bb26ecc0943c95b9a1be81d3054/tenor.gif",
+            "https://media.tenor.com/images/f13592a1d689ee22009b6c940cb550a6/tenor.gif",
+            "https://media.tenor.com/images/7325f639f8bbe6328b1cb54a122eaccf/tenor.gif"
             
         ];
 
