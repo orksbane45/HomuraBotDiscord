@@ -1,5 +1,7 @@
  const Discord = require('discord.js');
 exports.run = (client, message, args) => {
+ 
+ if (message.author.id == 327176843709120512) {
   
 message.delete()
 
@@ -20,7 +22,7 @@ Message.delete()
         setTimeout(() => { MM.delete(); }, 5000);
         
       });
-
+ };
       };
 
     exports.conf = {
