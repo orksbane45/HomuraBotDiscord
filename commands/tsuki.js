@@ -6,7 +6,7 @@ exports.run = (client, message, args) => {
   let tsukichan = client.channels.find('id', '547849354346496000');
       const embed = new Discord.RichEmbed()
 
-      .setColor(RANDOM)
+      .setColor("RANDOM")
       .setTitle("+20 :gem: pour:")
       .setDescription(`${message.author.username}, Merci`)
       
