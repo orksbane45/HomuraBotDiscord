@@ -8,7 +8,7 @@ exports.run = (client, message, args) => {
 
       .setColor(RANDOM)
       .setTitle("+20 :gem: pour:")
-      .setDescription(`${message.author.username}`, Merci`)
+      .setDescription(`${message.author.username}, Merci`)
       
 
 
