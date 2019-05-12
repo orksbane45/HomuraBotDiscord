@@ -17,7 +17,7 @@ message.delete()
 Message.delete()
 });
       message.channel.send("<a:HBgifneko:577149796939464725>  Merci").then(MM => {
-        setTimeout(() => { MM.delete(); }, 1000);
+        setTimeout(() => { MM.delete(); }, 5000);
         
       });
 
