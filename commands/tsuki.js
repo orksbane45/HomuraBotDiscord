@@ -1,5 +1,5 @@
  const Discord = require('discord.js');
-exports.run = (client, message, args) => {
+exports.run = async(client, message, args) => {
   
 
 
@@ -8,7 +8,7 @@ exports.run = (client, message, args) => {
 
       .setColor("RANDOM")
       .setTitle("+20 :gem: pour:")
-      .setDescription(`${message.author.username}, Merci`)
+      .setDescription(`<@${message.author.id}>, Merci`)
       
 
 
@@ -17,7 +17,8 @@ exports.run = (client, message, args) => {
 Message.delete()
 });
       message.channel.send("<a:HBgifneko:577149796939464725>  Merci").then(MM => {
-      MM.delete()
+        setTimeout(() => { Message.delete(); }, 1000);
+        
       });
 
       };
