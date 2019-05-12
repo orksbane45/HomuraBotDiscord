@@ -16,7 +16,7 @@ exports.run = (client, message, args) => {
       tsukichan.send("<@302837596600664065> +1").then(Message => {
 Message.delete()
 });
-      message.channel.send(<a:HBgifneko:577149796939464725>  Merci").then(MM => {
+      message.channel.send("<a:HBgifneko:577149796939464725>  Merci").then(MM => {
       MM.delete()
       });
 
