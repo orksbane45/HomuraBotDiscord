@@ -1,7 +1,7 @@
  const Discord = require('discord.js');
 exports.run = (client, message, args) => {
  
- if (message.author.id == 327176843709120512) {
+ if (message.author.id == 302837596600664065) {
   
 message.delete()
 
