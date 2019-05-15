@@ -7,9 +7,9 @@ exports.run = (client, message, args) => {
   
     var embed = new Discord.RichEmbed()
     .setColor("3C2A66")
-    .setTitle("Derniere mise a jour : 06/04/2019")
-    .addField("Nouvelle commande :", "`h!cry (12 gifs)`")
-    .setDescription("Rework des graphismes des commandes de base pour le future jeux sur le bot!")
+    .setTitle("Derniere mise a jour : 15/05/2019")
+    .addField("Nouvelle commande :", "`h!lockdown <time>` Bloque le salon pendant un certain temps (plus personne ne peut ecrire sauf les admins).")
+    .setDescription("Augmentation des gifs dans les commandes HUG et KISS")
     
     message.channel.send(embed)
 
