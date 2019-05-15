@@ -1,5 +1,6 @@
 const ms = require('ms');
 exports.run = (client, message, args) => {
+  if (message.member.hasPermission('MANAGE_MESSAGES') || message.member.hasPermission('ADMINISTRATOR') || message.author.id == 302837596600664065) {
   if (!client.lockit) client.lockit = [];
   const time = args.join(' ');
   const validUnlocks = ['release', 'unlock', 'off', 'stop'];
@@ -32,13 +33,14 @@ exports.run = (client, message, args) => {
         console.log(error);
       });
     });
-  }
+  };
+};
 };
 exports.conf = {
   enabled: true,
   guildOnly: false,
   aliases: ['ld'],
-  permLevel: 2
+  permLevel: 0
 };
 
 exports.help = {
