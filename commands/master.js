@@ -1,10 +1,10 @@
   const settings = require('../settings.json');
   exports.run = (client, message) => {
   
-  if (message.author.id === settings.ownerid) return message.reply("Tu est mon maître !")
+  if (message.author.id === settings.ownerid) return message.reply("Tu es mon maître !")
   
     
-       message.channel.send("Tu n'est pas mon maître")                       
+       message.channel.send("Tu n'es pas mon maître")                       
   
 };
 
