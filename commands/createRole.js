@@ -4,6 +4,7 @@ exports.run = function(client, message, args) {
   message.guild.createRole({
   name: 'Muted'
 })
+  message.channel.send("<:HBconfig:543117201817862145> Rôle crée ! Vous pouvez maintenant le modifier.");
  
   
 }
