@@ -1,5 +1,5 @@
 const Discord = require('discord.js');
-const mysql = require('mysql');
+
 exports.run = function(client, message, args) {
   let day = message.guild.joinedAt.getDate()
   let month = 1 + message.guild.joinedAt.getMonth()
